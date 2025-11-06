@@ -130,6 +130,9 @@ type EducationItem = {
   title: string;
   institution: string;
   duration: string;
+  cgpa?: string;      
+  hsc?: string;
+  sslc?: string;
   description: string;
 };
 
